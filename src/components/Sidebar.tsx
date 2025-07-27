@@ -20,6 +20,9 @@ export default function Sidebar() {
           <a href="#social" className="block text-lg hover:text-blue-500">
             📱 Social
           </a>
+          <a href="#trending" className="block text-lg hover:text-blue-500">
+            🔥 Trending
+          </a>
           <a href="#favorites" className="block text-lg hover:text-blue-500">
             ⭐ Favorites
           </a>

@@ -26,18 +26,24 @@ export default function SocialPostCard({ post }: { post: Post }) {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 max-w-xl w-full">
-      <div className="flex justify-between mb-2 text-sm text-gray-500">
-        <span>@{post.user}</span>
-        <span>{post.platform}</span>
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 w-full sm:max-w-md flex flex-col justify-between self-start">
+      <div className="mb-3">
+        <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-1">
+          <span>@{post.user}</span>
+          <span>{post.platform}</span>
+        </div>
+        <p className="text-gray-800 dark:text-gray-200 mb-2">{post.content}</p>
+        {post.image && (
+          <img
+            src={post.image}
+            alt="post"
+            className="w-full h-48 object-cover rounded-md mb-3"
+          />
+        )}
       </div>
-      <p className="mb-2">{post.content}</p>
-      {post.image && (
-        <img src={post.image} alt="post" className="rounded-lg max-h-60 object-cover" />
-      )}
       <button
         onClick={handleFavorite}
-        className="mt-2 text-sm text-blue-500 hover:underline"
+        className="text-sm text-blue-500 hover:underline self-start"
       >
         ❤️ Add to Favorites
       </button>
