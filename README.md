@@ -2,6 +2,10 @@
 
 A responsive web dashboard built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**, and **Redux Toolkit**, designed to show personalized content including news, movies, and social media posts.
 
+## 🚀 Github link
+
+https://github.com/tsujit74/personalized-dashboard
+
 ## 🚀 Live Demo
 
 👉 [https://personalized-dashboard-eight.vercel.app/](https://personalized-dashboard-eight.vercel.app/)
@@ -42,19 +46,6 @@ A responsive web dashboard built with **Next.js (App Router)**, **TypeScript**, 
 
 - Managed via **Redux Toolkit** and **RTK Query**
 - User preferences persist using `redux-persist` + localStorage
-
----
-
-## ❌ Features Not Yet Implemented
-
-| Feature                 | Status       |
-|-------------------------|--------------|
-| Infinite Scroll         | ❌ Not implemented |
-| Trending Section        | ⚠️ Not labeled / visible |
-| Loading Spinners        | ❌ Not shown during fetch |
-| Animations / Transitions | ❌ Not added |
-| Unit/Integration Tests  | ❌ Not written |
-| E2E Testing with Cypress| ⚠️ Cypress installed but no tests |
 
 ---
 
