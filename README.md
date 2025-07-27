@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Personalized Content Dashboard
 
-## Getting Started
+A fully responsive content dashboard built with **Next.js App Router**, **Tailwind CSS v4**, and **Redux Toolkit**, allowing users to explore personalized news, trending movies, and social posts — with light/dark mode and favorites.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **State Management**: Redux Toolkit
+- **Data Fetching**: React Query
+- **Persistence**: redux-persist + localStorage
+
+---
+
+## 📌 Features
+
+- 🔍 **Search Bar** — Search across all content
+- 📰 **News Feed** — Filtered by selected categories
+- 🎬 **Movies Section** — Trending movie cards
+- 📱 **Social Posts** — Mock or API-based
+- ⭐ **Favorites** — Persistent via Redux
+- 🌙 **Dark/Light Mode Toggle** — Stored in localStorage
+- 🎯 **Internal Navigation** — Scrolls to each section
+- 📱 **Responsive** — Mobile/tablet/desktop supported
+
+---
+
+## 🛠 Setup Instructions
 
 ```bash
+# Clone the project
+git clone https://github.com/your-username/personalized-dashboard.git
+
+cd personalized-dashboard
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
